@@ -3,6 +3,16 @@
     padding: 0;
     box-sizing: border-box;
 }
+.title{
+    background-color: #87CEEB;
+    padding: 10px;
+}
+.game-title{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    text-align: center;
+    text-transform: uppercase;
+}
 
 .game-board {
     width: 100%;
@@ -33,6 +43,21 @@
 .jump{
     animation: mario-jump 500ms ease-out;
 }
+
+.menu{
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+.restart-btn{
+    padding: 8px;
+    font-size: 20px;
+    background-color: #87CEEB;
+    border-radius: 10px;
+    text-transform: uppercase;
+    
+}
+
 
 @keyframes clouds {
     from{
